@@ -1,0 +1,128 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.showdrop:backend >------------------------
+[INFO] Building showdrop-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ backend ---
+[INFO] Deleting D:\ShowDrop Backend\ShowDrop-Backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 23 source files with javac [debug release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/MovieController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/MovieController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/MovieController.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/MovieController.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[5,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[6,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[7,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[5,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/User.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/User.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/User.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/User.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Movie.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Movie.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Movie.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Movie.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/MovieRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/MovieRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/MovieRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/MovieRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/BookingController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/BookingController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/BookingController.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/AuthController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/AuthController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/AuthController.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[5,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[6,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[7,1] class, interface, enum, or record expected
+[INFO] 46 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.850 s
+[INFO] Finished at: 2026-03-15T03:17:28+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/MovieController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/MovieController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/MovieController.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/MovieController.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[5,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[6,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/security/JwtService.java:[7,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/UserRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Show.java:[5,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/User.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/User.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/User.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/User.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Movie.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Movie.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Movie.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/entity/Movie.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/MovieRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/MovieRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/MovieRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/repository/MovieRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/BookingController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/BookingController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/BookingController.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/AuthController.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/AuthController.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/controller/AuthController.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[1,1] illegal character: '\ufeff'
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[1,10] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[3,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[4,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[5,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[6,1] class, interface, enum, or record expected
+[ERROR] /D:/ShowDrop Backend/ShowDrop-Backend/src/main/java/com/showdrop/backend/service/MovieService.java:[7,1] class, interface, enum, or record expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

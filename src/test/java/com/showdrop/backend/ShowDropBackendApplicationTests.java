@@ -1,4 +1,4 @@
-package com.example.ShowDrop.Backend;
+package com.showdrop.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
