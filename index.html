@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShowDrop</title>
+  <style>
+    #root:empty {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #f0f0f0;
+      color: #111;
+      font-family: system-ui, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+    #root:empty::after {
+      content: "Loading ShowDrop... If this does not change, open DevTools (F12) then Console to see errors.";
+      max-width: 440px;
+    }
+  </style>
+  <script>
+    function showError(title, msg) {
+      var el = document.getElementById("root");
+      if (!el) return;
+      el.innerHTML =
+        '<div style="position:fixed;inset:0;z-index:99999;background:#fff;color:#111;padding:24px;font-family:system-ui;overflow:auto;">' +
+        '<h1 style="color:#b91c1c;">' + title + "</h1>" +
+        '<pre style="background:#fef2f2;padding:16px;border-radius:8px;overflow:auto;white-space:pre-wrap;">' + (msg || "") + "</pre>" +
+        "<p>Fix the error above and refresh the page (F5).</p></div>";
+    }
+    window.addEventListener("error", function (e) {
+      showError("Page error", (e.error && e.error.stack) || e.message);
+    });
+    window.addEventListener("unhandledrejection", function (e) {
+      var reason = e.reason;
+      showError(
+        "Unhandled error",
+        (reason && (reason.message || reason.stack || String(reason))) || "Promise rejected"
+      );
+    });
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
