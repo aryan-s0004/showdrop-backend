@@ -1,0 +1,101 @@
+.movies-page {
+  padding: 0 40px 80px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 64px;
+  animation: fadeInDown 0.6s var(--transition-med);
+}
+
+.page-header h1 {
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  margin-bottom: 16px;
+}
+
+.page-header .subtitle {
+  font-size: 18px;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 32px auto;
+}
+
+.search-bar {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 6px;
+  transition: box-shadow var(--transition-med);
+}
+
+.search-bar:focus-within {
+  box-shadow: 0 0 0 2px var(--accent-glow), 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.search-bar input {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.search-bar input:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.search-btn {
+  padding: 10px 24px;
+  border-radius: 24px;
+  background: var(--accent-gradient);
+  color: white;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.search-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.loader {
+  text-align: center;
+  font-size: 20px;
+  color: var(--text-secondary);
+  margin-top: 100px;
+}
+
+.movie-card-anim {
+  opacity: 0;
+  animation: fadeInUp 0.6s var(--transition-med) forwards;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .page-header h1 { font-size: 40px; }
+  .movies-page { padding: 0 20px 40px 20px; }
+  .movies-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+}
