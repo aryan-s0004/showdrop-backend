@@ -1,0 +1,64 @@
+spring:
+  application:
+    name: showdrop-backend
+
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:showdrop_db}?createDatabaseIfNotExist=true&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: example@gmail.com
+    password: app-password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+
+jwt:
+  # Use at least 256 bits (32 chars) for HS256. Override with env JWT_SECRET in production.
+  secret: ${JWT_SECRET:defaultsecretkeymustbeatleast256bitsforHS256}
+  expiration: ${JWT_EXPIRATION_MS:86400000}
+  refresh-expiration: 604800000
+
+razorpay:
+  key-id: rzp_test_key
+  key-secret: rzp_test_secret
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    com.showdrop: INFO
+    root: WARN
